@@ -258,7 +258,8 @@
     
     .block-area p {
         position: absolute;
-        top: 0;
+        top: 8px;
+        right: 25px;
         margin-top: 0;
         font-size: 25px;
         letter-spacing: 0px;
@@ -275,6 +276,10 @@
         left: 27px;
         right: 32px;
         top: 17px;
+    }
+    
+    form.twitter-submit {
+        display: none;
     }
     
     .number {
@@ -312,7 +317,7 @@
     
     .date-area {
         width: 11%;
-        height: 85px;
+        height: 75px;
         background-color: #dcb102;
         padding-top: 14px;
     }
