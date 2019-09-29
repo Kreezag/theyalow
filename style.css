@@ -1,579 +1,533 @@
-.wrapper {
-    margin: 0 auto;
-    width: 1024px;
-}
-
-
-/*..................................
+@media (min-width:641px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 1024px;
+    }
+    /*..................................
 FIRST SECTION (HEADER + 1ST MAIN)
 ...................................*/
-
-.first-section {
-    margin: 0 auto;
-    width: 1300px;
-    height: 566px;
-    background-image: url(./assets/images/Layer\ 20.png);
-    background-size: cover;
-}
-
-
-/* .............................
+    .first-section {
+        margin: 0 auto;
+        width: 1300px;
+        height: 566px;
+        background-image: url(./assets/images/Layer\ 20.png);
+        background-size: cover;
+    }
+    /* .............................
          HEADER PART
 ..............................*/
-
-header {
-    display: flex;
-    height: 100px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h1 {
-    font-size: 41px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    font-family: 'Lucida Sans', sans-serif;
-    font-style: italic;
-    text-align: center;
-    margin-top: 42px;
-    margin-left: 6px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    margin-top: 37px;
-}
-
-.navbar {
-    display: flex;
-    border: none;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 462px;
-    height: 49px;
-    background-image: url(./assets/images/header/navbar/backgrounds/bright.png), url(./assets/images/header/navbar/backgrounds/brighter.png), url(./assets/images/header/navbar/backgrounds/theBrightest.png);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 37px -4px, 41px 2px, 46px 5px;
-    margin: 78px 2px 0 0;
-}
-
-.navbar img {
-    width: 21px;
-    height: 19px;
-    margin-right: 5px;
-    float: left;
-}
-
-.navbar li {
-    list-style-type: none;
-    font-size: 17px;
-    padding: 7px 0 3px 21px;
-    letter-spacing: 0px;
-    color: #9b7d08;
-    font-family: 'Segoe WP';
-}
-
-.nav-icon {
-    text-decoration: none;
-    color: #9b7d08;
-}
-
-.navbar a:hover {
-    color: #191208;
-    cursor: pointer;
-}
-
-
-/* .............................
-         MAIN PART
-..............................*/
-
-div.first-section main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 75px;
-}
-
-.first-video {
-    width: 550px;
-    height: 330px;
-    margin: 67px 20px 0 0;
-}
-
-.first-video video {
-    width: 548px;
-    height: 329px;
-    object-fit: cover;
-    margin: 2px 0px 0px 12px;
-}
-
-.first-section main p {
-    width: 418px;
-    height: 154px;
-    font-size: 63px;
-    letter-spacing: 1px;
-    color: #fff;
-    font-family: "Asap";
-    font-weight: 400;
-    text-align: center;
-    margin: 46px 6px 0 0;
-}
-
-.first-section main p span {
-    color: #f5c506;
-    margin: 46px 17px 0 0;
-}
-
-.sliders {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.to-somewhere {
-    margin-top: -332px;
-    height: 57px;
-    width: 32px;
-    background-color: #f5c506;
-    border: none;
-}
-
-
-/*..................................
-SECOND SECTION (MAIN WITH ICONS)
-...................................*/
-
-.second-section {
-    margin: 0 auto;
-    width: 1300px;
-    height: 215px;
-    background-image: url(./assets/images/secondSection/background_2.png);
-    background-size: auto;
-    box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px -4px 5px -1px rgba(63, 24, 24, 0.75);
-    -moz-box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
-}
-
-.icons {
-    width: 1024px;
-    margin: 0 auto;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.column {
-    display: block;
-    width: 33%;
-    height: 85%;
-    align-items: center;
-    padding-top: 30px;
-    border-left: 1px solid #d4d4d4;
-}
-
-.column p {
-    font-size: 27px;
-    letter-spacing: 0px;
-    color: #000000;
-    font-family: "Segoe UI";
-    font-weight: 300;
-    margin: -5px 4px 0 21px;
-}
-
-.column img {
-    width: 110px;
-    height: 96px;
-    padding-top: 20px;
-    margin-right: 18px;
-    margin-left: 15px;
-}
-
-.column:last-child {
-    border-right: 1px solid #d4d4d4;
-}
-
-
-/*..................................
-THIRD SECTION (3RD MAIN)
-...................................*/
-
-.third-section {
-    margin: 0 auto;
-    width: 1300px;
-    height: 508px;
-    background-image: url(./assets/images/thirdSection/background.png);
-    background-size: cover;
-    box-shadow: inset 0px 5px 5px -1px rgba(0, 0, 0, 0.67);
-    -webkit-box-shadow: inset 0px 5px 5px -1px rgba(0, 0, 0, 0.67);
-    -moz-box-shadow: inset 0px 5px 5px -1px rgba(0, 0, 0, 0.67);
-}
-
-.third-section .content {
-    position: relative;
-    width: 1024px;
-    height: 508px;
-    margin: 0 auto;
-}
-
-.title {
-    position: absolute;
-    top: 21px;
-    left: 6px;
-    width: 100%;
-    height: 10%;
-    font-size: 37px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    font-family: "PT Sans";
-    font-weight: 400;
-    text-align: left;
-    margin: 0;
-    padding: 11px 0 0 0;
-    text-align: left;
-}
-
-.container {
-    position: absolute;
-    top: 21%;
-    left: 3px;
-    display: flex;
-    width: 100%;
-    height: 62%;
-    flex-wrap: wrap;
-}
-
-.block-area {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    height: 230px;
-    background-color: #ed9e03;
-}
-
-.second-video {
-    width: 33%;
-    height: 230px;
-}
-
-.second-video video {
-    width: 312px;
-    height: 230px;
-    object-fit: cover;
-}
-
-.block-area p {
-    position: absolute;
-    top: 8px;
-    right: 25px;
-    margin-top: 0;
-    font-size: 25px;
-    letter-spacing: 0px;
-    line-height: 38px;
-    color: #ffffff;
-    font-family: "Segoe WP";
-    font-weight: 300;
-}
-
-p.text {
-    font-size: 29px;
-    word-spacing: 3px;
-    text-align: left;
-    left: 27px;
-    right: 32px;
-    top: 17px;
-}
-
-form.twitter-submit {
-    display: none;
-}
-
-.number {
-    margin: 0;
-    right: 15px;
-}
-
-img.first-plus {
-    position: relative;
-    padding-top: 209px;
-    padding-left: 313px;
-    width: 12px;
-    height: 12px;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-img.second-plus {
-    position: relative;
-    padding-top: 17px;
-    padding-left: 320px;
-    width: 12px;
-    height: 12px;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-img.twitter {
-    padding-top: 57px;
-    padding-left: 95px;
-    width: 163px;
-    height: 133px;
-    color: rgba(188, 125, 0, 0.9);
-}
-
-.date-area {
-    width: 11%;
-    height: 75px;
-    background-color: #dcb102;
-    padding-top: 14px;
-}
-
-p.date {
-    font-size: 51px;
-    letter-spacing: 1px;
-    line-height: 38px;
-    color: #ffffff;
-    font-family: "Segoe UI";
-    font-weight: bold;
-    margin: 0;
-    text-align: center;
-}
-
-p.month {
-    font-size: 21px;
-    letter-spacing: 0px;
-    line-height: 38px;
-    color: #b26529;
-    font-family: "Segoe UI";
-    text-align: center;
-    margin: 0;
-}
-
-
-/*...................
-       SLIDER
-....................*/
-
-input {
-    outline: none;
-}
-
-.scroll {
-    display: block;
-    position: absolute;
-    bottom: 24px;
-    left: 75px;
-    right: 60px;
-    -webkit-appearance: none;
-    width: 895px;
-    height: 15px;
-    background-color: rgba(250, 227, 143, 0.7);
-    border-radius: 15px;
-}
-
-.scroll::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 196px;
-    height: 15px;
-    border-radius: 15px;
-    background-color: #ed9e03;
-}
-
-.scroll::-webkit-slider-thumb:hover {
-    background-color: #5c3d01;
-    cursor: pointer;
-}
-
-
-/*.......
-for firefox
-........*/
-
-.scroll::-moz-range-track {
-    display: block;
-    position: absolute;
-    bottom: 24px;
-    left: 75px;
-    right: 60px;
-    width: 895px;
-    height: 15px;
-    background-color: rgba(250, 227, 143, 0.7);
-    border-radius: 15px;
-}
-
-.scroll::-moz-range-thumb {
-    width: 195px;
-    height: 15px;
-    border-radius: 15px;
-    background-color: #ed9e03;
-    border: none;
-}
-
-
-/*..................................
-FORTH SECTION (4TH MAIN (WHICH 
-CONSIST IMAGES OF SOME DEVICES)
-...................................*/
-
-.forth-section {
-    margin: 0 auto;
-    width: 1300px;
-    height: 497px;
-    background-image: url(./assets/images/ForthSection/background.png);
-    background-size: cover;
-}
-
-.forth-section--title {
-    position: relative;
-    top: 36px;
-    left: 187px;
-    width: 918px;
-    height: 130px;
-    font-size: 43px;
-    letter-spacing: 0px;
-    color: #f5c506;
-    font-family: "PT Sans";
-    font-weight: 400;
-    text-align: center;
-    margin: 0;
-}
-
-.forth-section--container {
-    width: 1024px;
-    height: 315px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-section.images {
-    width: 580px;
-}
-
-.ball {
-    position: relative;
-    width: 116px;
-    height: 116px;
-    background-color: #f6c506;
-    border-radius: 50%;
-    z-index: 1;
-    bottom: 10px;
-}
-
-.ball p {
-    color: #fff;
-    font-size: 19px;
-    letter-spacing: 0px;
-    font-family: "PT Sans Narrow";
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
-    padding-top: 49px;
-}
-
-img.desktop {
-    position: relative;
-    bottom: 83px;
-    left: 20px;
-}
-
-img.tablet {
-    position: relative;
-    bottom: 123px;
-    left: 40px;
-}
-
-img.mobile {
-    position: relative;
-    bottom: 122px;
-    left: 60px;
-}
-
-ul.list {
-    margin-left: 120px;
-    width: 424px;
-    list-style-image: url(./assets/images/ForthSection/listMarker.png);
-}
-
-.list li {
-    width: 352px;
-    height: 45px;
-    font-size: 22px;
-    letter-spacing: 0px;
-    color: #a9a9a7;
-    font-family: "Open Sans";
-    font-weight: 400;
-    padding-left: 13px;
-    padding-bottom: 10px;
-}
-
-
-/*..................................
-            FOOTER 
-...................................*/
-
-.footer {
-    margin: 0 auto;
-    width: 1300px;
-    height: 67px;
-    background-color: #4c4c4c;
-    box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
-}
-
-img.footer-logo {
-    position: relative;
-    top: 1px;
-    left: 3px;
-    width: 53px;
-    height: 53px;
-    float: left;
-}
-
-.footer p {
-    display: inline-block;
-    margin: 0;
-    top: 15px;
-    position: relative;
-    font-size: 29px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    font-family: "Lucida Sans";
-    font-style: italic;
-    text-align: center;
-    text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.42);
-}
-
-@media screen and (max-width:640px) {
-    /*................................
-    FIRST SECTION (HEADER + FIRST MAIN)
-    .................................*/
     header {
         display: flex;
-        width: 100%;
-        height: 62px;
+        height: 100px;
         justify-content: space-between;
         align-items: center;
+    }
+    h1 {
+        font-size: 41px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: 'Lucida Sans', sans-serif;
+        font-style: italic;
+        text-align: center;
+        margin-top: 42px;
+        margin-left: 6px;
     }
     .logo {
         display: flex;
         align-items: center;
-        justify-content: center;
         margin-top: 37px;
-        width: 25%;
-        background: linear-gradient(#40403e #343432 #292927);
+    }
+    .navbar {
+        display: flex;
+        border: none;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 462px;
+        height: 49px;
+        background-image: url(./assets/images/header/navbar/backgrounds/bright.png), url(./assets/images/header/navbar/backgrounds/brighter.png), url(./assets/images/header/navbar/backgrounds/theBrightest.png);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: 37px -4px, 41px 2px, 46px 5px;
+        margin: 78px 2px 0 0;
+    }
+    .navbar img {
+        width: 21px;
+        height: 19px;
+        margin-right: 5px;
+        float: left;
+    }
+    .navbar li {
+        list-style-type: none;
+        font-size: 19px;
+        margin: 0;
+        width: 33%;
+        height: 34px;
+        border-right: 1px solid #9b7d08;
+        letter-spacing: 0px;
+        color: #9b7d08;
+        font-family: "Segoe WP";
+    }
+    .nav-icon {
+        position: relative;
+        top: 9px;
+        left: 25px;
+        text-decoration: none;
+        color: #9b7d08;
+    }
+    .navbar a:hover {
+        color: #191208;
+        cursor: pointer;
+    }
+    /* .............................
+         MAIN PART
+..............................*/
+    div.first-section main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 75px;
+    }
+    .first-video {
+        width: 550px;
+        height: 330px;
+        margin: 67px 20px 0 0;
+    }
+    .first-video video {
+        width: 548px;
+        height: 329px;
+        object-fit: cover;
+        margin: 2px 0px 0px 12px;
+    }
+    .first-section main p {
+        width: 418px;
+        height: 154px;
+        font-size: 63px;
+        letter-spacing: 1px;
+        color: #fff;
+        font-family: "Asap";
+        font-weight: 400;
+        text-align: center;
+        margin: 46px 6px 0 0;
+    }
+    .first-section main p span {
+        color: #f5c506;
+        margin: 46px 17px 0 0;
+    }
+    .sliders {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .to-somewhere {
+        margin-top: -332px;
+        height: 57px;
+        width: 32px;
+        background-color: #f5c506;
+        border: none;
+    }
+    /*..................................
+SECOND SECTION (MAIN WITH ICONS)
+...................................*/
+    .second-section {
+        margin: 0 auto;
+        width: 1300px;
+        height: 215px;
+        background-image: url(./assets/images/secondSection/background_2.png);
+        background-size: auto;
+        box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px -4px 5px -1px rgba(63, 24, 24, 0.75);
+        -moz-box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
+    }
+    .icons {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .column {
+        display: block;
+        width: 33%;
+        height: 85%;
+        align-items: center;
+        padding-top: 30px;
+        border-left: 1px solid #d4d4d4;
+    }
+    .column p {
+        font-size: 27px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "Segoe UI";
+        font-weight: 300;
+        margin: -5px 4px 0 21px;
+    }
+    .column img {
+        width: 110px;
+        height: 96px;
+        padding-top: 20px;
+        margin-right: 18px;
+        margin-left: 15px;
+    }
+    .column:last-child {
+        border-right: 1px solid #d4d4d4;
+    }
+    /*..................................
+THIRD SECTION (3RD MAIN)
+...................................*/
+    .third-section {
+        margin: 0 auto;
+        width: 1300px;
+        height: 508px;
+        background-image: url(./assets/images/thirdSection/background.png);
+        background-size: cover;
+        box-shadow: inset 0px 5px 5px -1px rgba(0, 0, 0, 0.67);
+        -webkit-box-shadow: inset 0px 5px 5px -1px rgba(0, 0, 0, 0.67);
+        -moz-box-shadow: inset 0px 5px 5px -1px rgba(0, 0, 0, 0.67);
+    }
+    .third-section .content {
+        position: relative;
+        width: 1024px;
+        height: 508px;
+        margin: 0 auto;
+    }
+    .title {
+        position: absolute;
+        top: 21px;
+        left: 6px;
+        width: 100%;
+        height: 10%;
+        font-size: 37px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "PT Sans";
+        font-weight: 400;
+        text-align: left;
+        margin: 0;
+        padding: 11px 0 0 0;
+        text-align: left;
+    }
+    .container {
+        position: absolute;
+        top: 21%;
+        left: 3px;
+        display: flex;
+        width: 100%;
+        height: 62%;
+        flex-wrap: wrap;
+    }
+    .block-area {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        height: 230px;
+        background-color: #ed9e03;
+    }
+    .second-video {
+        width: 33%;
+        height: 230px;
+    }
+    .second-video video {
+        width: 312px;
+        height: 230px;
+        object-fit: cover;
+    }
+    .block-area p {
+        position: absolute;
+        top: 8px;
+        right: 25px;
+        width: 279px;
+        height: 230px;
+        margin-top: 0;
+        font-size: 25px;
+        letter-spacing: 0px;
+        line-height: 38px;
+        color: #ffffff;
+        font-family: "Segoe WP";
+        font-weight: 300;
+    }
+    p.text {
+        font-size: 29px;
+        word-spacing: 3px;
+        text-align: left;
+        left: 27px;
+        right: 32px;
+        top: 17px;
+    }
+    form.twitter-submit {
+        display: none;
+    }
+    p.number {
+        position: absolute;
+        top: 9px;
+        right: 25px;
+        width: 26px;
+        height: 26px;
+    }
+    img.first-plus {
+        position: relative;
+        padding-top: 209px;
+        padding-left: 313px;
+        width: 12px;
+        height: 12px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    img.second-plus {
+        position: relative;
+        padding-top: 17px;
+        padding-left: 320px;
+        width: 12px;
+        height: 12px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    img.twitter {
+        padding-top: 57px;
+        padding-left: 95px;
+        width: 163px;
+        height: 133px;
+        color: rgba(188, 125, 0, 0.9);
+    }
+    .dialog p {
+        display: none;
+    }
+    .dialog img {
+        display: none;
+    }
+    form {
+        display: none;
+    }
+    .date-area {
+        width: 11%;
+        height: 75px;
+        background-color: #dcb102;
+        padding-top: 14px;
+    }
+    p.date {
+        font-size: 51px;
+        letter-spacing: 1px;
+        line-height: 38px;
+        color: #ffffff;
+        font-family: "Segoe UI";
+        font-weight: bold;
+        margin: 0;
+        text-align: center;
+    }
+    p.month {
+        font-size: 21px;
+        letter-spacing: 0px;
+        line-height: 38px;
+        color: #b26529;
+        font-family: "Segoe UI";
+        text-align: center;
+        margin: 0;
+    }
+    /*...................
+       SLIDER
+....................*/
+    input {
+        outline: none;
+    }
+    .scroll {
+        display: block;
+        position: absolute;
+        bottom: 24px;
+        left: 75px;
+        right: 60px;
+        -webkit-appearance: none;
+        width: 895px;
+        height: 15px;
+        background-color: rgba(250, 227, 143, 0.7);
+        border-radius: 15px;
+    }
+    .scroll::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 196px;
+        height: 15px;
+        border-radius: 15px;
+        background-color: #ed9e03;
+    }
+    .scroll::-webkit-slider-thumb:hover {
+        background-color: #5c3d01;
+        cursor: pointer;
+    }
+    /*.......
+for firefox
+........*/
+    .scroll::-moz-range-track {
+        display: block;
+        position: absolute;
+        bottom: 24px;
+        left: 75px;
+        right: 60px;
+        width: 895px;
+        height: 15px;
+        background-color: rgba(250, 227, 143, 0.7);
+        border-radius: 15px;
+    }
+    .scroll::-moz-range-thumb {
+        width: 195px;
+        height: 15px;
+        border-radius: 15px;
+        background-color: #ed9e03;
+        border: none;
+    }
+    /*..................................
+FORTH SECTION (4TH MAIN (WHICH 
+CONSIST IMAGES OF SOME DEVICES)
+...................................*/
+    .forth-section {
+        margin: 0 auto;
+        width: 1300px;
+        height: 497px;
+        background-image: url(./assets/images/ForthSection/background.png);
+        background-size: cover;
+    }
+    .forth-section--title {
+        position: relative;
+        top: 36px;
+        left: 187px;
+        width: 918px;
+        height: 130px;
+        font-size: 43px;
+        letter-spacing: 0px;
+        color: #f5c506;
+        font-family: "PT Sans";
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+    }
+    .forth-section--container {
+        width: 1024px;
+        height: 315px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.images {
+        width: 580px;
+    }
+    .ball {
+        position: relative;
+        width: 116px;
+        height: 116px;
+        background-color: #f6c506;
+        border-radius: 50%;
+        z-index: 1;
+        bottom: 10px;
+    }
+    .ball p {
+        color: #fff;
+        font-size: 19px;
+        letter-spacing: 0px;
+        font-family: "PT Sans Narrow";
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        padding-top: 49px;
+    }
+    img.desktop {
+        position: relative;
+        bottom: 83px;
+        left: 20px;
+    }
+    img.tablet {
+        position: relative;
+        bottom: 123px;
+        left: 40px;
+    }
+    img.mobile {
+        position: relative;
+        bottom: 122px;
+        left: 60px;
+    }
+    ul.list {
+        margin-left: 120px;
+        width: 424px;
+        list-style-image: url(./assets/images/ForthSection/listMarker.png);
+    }
+    .list li {
+        width: 352px;
+        height: 45px;
+        font-size: 22px;
+        letter-spacing: 0px;
+        color: #a9a9a7;
+        font-family: "Open Sans";
+        font-weight: 400;
+        padding-left: 13px;
+        padding-bottom: 10px;
+    }
+    /*..................................
+            FOOTER 
+...................................*/
+    .footer {
+        margin: 0 auto;
+        width: 1300px;
+        height: 67px;
+        background-color: #4c4c4c;
+        box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.75);
+    }
+    img.footer-logo {
+        position: relative;
+        top: 1px;
+        left: 3px;
+        width: 53px;
+        height: 53px;
+        float: left;
+    }
+    .footer p {
+        display: inline-block;
+        margin: 0;
+        top: 15px;
+        position: relative;
+        font-size: 29px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Lucida Sans";
+        font-style: italic;
+        text-align: center;
+        text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.42);
+    }
+}
+
+@media (max-width:640px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 100%;
+    }
+    /* .............................
+         HEADER PART
+..............................*/
+    header {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        height: 62px;
+        justify-content: space-between;
+        align-items: center;
         box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.67);
         -webkit-box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.67);
         -moz-box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.67);
     }
+    .logo {
+        display: flex;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 62px;
+        background: #40403e;
+    }
     h1 {
+        position: relative;
+        top: 2px;
+        right: 2px;
         font-size: 19px;
         letter-spacing: 0px;
         color: #ffffff;
@@ -583,28 +537,407 @@ img.footer-logo {
         text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.42);
     }
     .logo img {
+        position: relative;
+        right: 8px;
         width: 39px;
         height: 39px;
     }
     .navbar {
+        margin: 0;
+        padding: 0;
         display: flex;
         border: none;
         align-items: center;
+        /*text-align: center;*/
         justify-content: space-evenly;
         width: 75%;
         height: 62px;
         background-color: #f6c506;
     }
-    /*................................
-                SECOND SECTION 
-    .................................*/
-    /*................................
-                THIRD SECTION
-    .................................*/
-    /*................................
-                FORTH SECTION 
-    .................................*/
-    /*................................
-                    FOOTER
-    .................................*/
+    .nav-icon img {
+        position: relative;
+        top: 0;
+        left: 2px;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        float: left;
+    }
+    .navbar li {
+        list-style-type: none;
+        font-size: 19px;
+        margin: 0;
+        width: 33%;
+        height: 62px;
+        border-left: 1px solid #9b7d08;
+        letter-spacing: 0px;
+        color: #9b7d08;
+        font-family: "Segoe WP";
+        /* text-align: center;*/
+    }
+    .nav-icon {
+        position: relative;
+        top: 19px;
+        left: 22px;
+        text-decoration: none;
+        color: #9b7d08;
+    }
+    .navbar a:hover {
+        color: #191208;
+        cursor: pointer;
+    }
+    /* .............................
+    FIRST SECTION MAIN PART
+..............................*/
+    .first-section {
+        margin: 0 auto;
+        width: 640px;
+        height: 330px;
+        background: #fff;
+    }
+    .first-video {
+        position: relative;
+        width: 640px;
+        height: 330px;
+        margin: 0 auto;
+    }
+    .first-video video {
+        position: absolute;
+        width: 640px;
+        height: 330px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    .first-section main p {
+        display: none;
+    }
+    .sliders {
+        display: none;
+    }
+    /*..................................
+SECOND SECTION (MAIN WITH ICONS)
+...................................*/
+    .second-section {
+        margin: 0 auto;
+        width: 640px;
+        height: 215px;
+        background-image: url(./assets/images/secondSection/background_2.png);
+        background-size: auto;
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 33%;
+        height: 100%;
+        align-items: center;
+    }
+    .icons {
+        width: 640px;
+        height: 163px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .column p {
+        position: relative;
+        top: 61px;
+        left: 2px;
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "Segoe UI";
+        font-weight: 300;
+        margin: -38px 10px 0 26px;
+    }
+    .column img {
+        width: 86px;
+        height: 76px;
+        margin: 0 auto;
+        position: relative;
+        top: 58px;
+        left: -5px;
+    }
+    /*..................................
+THIRD SECTION (3RD MAIN)
+...................................*/
+    .third-section {
+        margin: 0 auto;
+        width: 640px;
+        height: 490px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #fff;
+    }
+    .third-section .content {
+        position: relative;
+        width: 640px;
+        height: 480px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .title {
+        display: none;
+    }
+    .container {
+        position: absolute;
+        top: 2%;
+        left: 0;
+        width: 100%;
+        height: 480px;
+    }
+    .block-area {
+        display: flex;
+        margin: 4px 0 10px 0;
+        flex-direction: column;
+        width: 300px;
+        height: 230px;
+        background-color: #ed9e03;
+    }
+    .second-video {
+        position: absolute;
+        top: 4px;
+        left: 50%;
+        width: 314px;
+        height: 230px;
+    }
+    .second-video video {
+        width: 312px;
+        height: 230px;
+        object-fit: cover;
+    }
+    p.text {
+        position: absolute;
+        left: 23px;
+        bottom: 204px;
+        width: 279px;
+        height: 230px;
+        font-size: 29px;
+        letter-spacing: 0px;
+        line-height: 33px;
+        color: #ffffff;
+        font-family: "Segoe WP";
+        font-weight: 300;
+    }
+    .number {
+        display: none;
+    }
+    img.first-plus {
+        position: relative;
+        padding-top: 204px;
+        padding-left: 279px;
+        width: 12px;
+        height: 12px;
+        color: #ffffff;
+    }
+    img.first-plus:hover {
+        cursor: pointer;
+    }
+    img.second-plus {
+        display: none;
+    }
+    .twitter-area {
+        position: relative;
+        width: 640px;
+        height: 235px;
+        display: flex;
+        flex-direction: row;
+        background-color: #f5c607;
+    }
+    section.twitts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 60%;
+        height: 230px;
+        left: 40%;
+    }
+    .dialog p {
+        position: absolute;
+        width: 250px;
+        margin: 8px 0;
+        right: 41px;
+        font-size: 13px;
+        letter-spacing: 0px;
+        color: #8f8e8e;
+        font-family: "Arial";
+    }
+    .dialog img {
+        position: absolute;
+        right: 32px;
+        padding: 1px;
+    }
+    .box {
+        width: 291px;
+        height: 35px;
+        margin-left: 96px;
+        text-align: center;
+        position: relative;
+        top: 26px;
+        right: 6px;
+    }
+    input {
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+    input[type="text"] {
+        background-color: #fff;
+        width: 200px;
+        height: 29px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 10px 0 0 10px;
+        outline: none;
+        -webkit-box-shadow: inset 2px 4px 9px -4px rgba(179, 172, 179, 1);
+        -moz-box-shadow: inset 2px 4px 9px -4px rgba(179, 172, 179, 1);
+        box-shadow: inset 2px 4px 9px -4px rgba(179, 172, 179, 1);
+    }
+    input[type="submit"] {
+        position: relative;
+        left: -5px;
+        border-radius: 0 10px 10px 0;
+        width: 70px;
+        height: 29px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        background: linear-gradient(90deg, #e9a624, #db9a18, #d18e0c);
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Arial";
+        text-align: center;
+    }
+    img.twitter {
+        padding-top: 59px;
+        padding-left: 77px;
+        width: 163px;
+        height: 133px;
+        color: rgba(188, 125, 0, 0.9);
+    }
+    .date-area {
+        display: none;
+    }
+    /*...................
+       SLIDER
+....................*/
+    input {
+        outline: none;
+    }
+    .scroll {
+        display: none;
+    }
+    /*..................................
+FORTH SECTION (4TH MAIN (WHICH 
+CONSIST IMAGES OF SOME DEVICES)
+...................................*/
+    .forth-section {
+        position: relative;
+        margin: 0 auto;
+        padding-left: 4px;
+        width: 636px;
+        height: 465px;
+        background-image: url(./assets/images/ForthSection/background.png);
+        background-size: cover;
+        box-shadow: inset 0px -3px 5px -1px rgba(0, 0, 0, 0.67);
+        -webkit-box-shadow: inset 0px -3px 5px -1px rgba(0, 0, 0, 0.67);
+        -moz-box-shadow: inset 0px -3px 5px -1px rgba(0, 0, 0, 0.67);
+    }
+    .forth-section--title {
+        position: relative;
+        padding-top: 33px;
+        width: 640px;
+        height: 106px;
+        font-size: 39px;
+        letter-spacing: 1px;
+        color: #f5c506;
+        font-family: "Open Sans";
+        font-weight: 400;
+        margin: 0;
+        text-align: center;
+    }
+    .forth-section--container {
+        width: 640px;
+        height: 315px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.images {
+        width: 580px;
+    }
+    .ball {
+        position: relative;
+        width: 116px;
+        height: 116px;
+        background-color: #f6c506;
+        border-radius: 50%;
+        z-index: 1;
+        bottom: -4px;
+        right: 4px;
+    }
+    .ball p {
+        color: #fff;
+        font-size: 19px;
+        letter-spacing: 0px;
+        font-family: "PT Sans Narrow";
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        padding-top: 49px;
+    }
+    img.desktop {
+        position: relative;
+        bottom: 72px;
+        left: 24px;
+    }
+    img.tablet {
+        position: relative;
+        bottom: 112px;
+        left: 45px;
+    }
+    img.mobile {
+        position: relative;
+        bottom: 112px;
+        left: 65px;
+    }
+    ul.list {
+        display: none;
+    }
+    /*..................................
+            FOOTER 
+...................................*/
+    .footer {
+        margin: 0 auto;
+        width: 640px;
+        height: 44px;
+        background-color: #4c4c4c;
+    }
+    img.footer-logo {
+        position: relative;
+        top: 3px;
+        left: 65px;
+        width: 31px;
+        height: 31px;
+        float: left;
+    }
+    .footer p {
+        display: inline-block;
+        margin: 0;
+        top: 10px;
+        left: 63px;
+        position: relative;
+        font-size: 17px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Lucida Sans";
+        font-style: italic;
+        text-align: center;
+        text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.42);
+    }
 }
